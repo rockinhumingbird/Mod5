@@ -21,18 +21,18 @@ for title We used NLTK to tokenize, lemmatize and filter the data, giving us 400
 This left us with around 354 words to model!
 
 ## Visualization of Data in Reduced Dimensions
-![header](Images/pca.png)
+![header](images/pca.png)
 ##
-![header](Images/.png)
+![header](images/.png)
 
 ## Performance of ML Models
-![header](Images/results.png)
+![header](images/results.png)
 
 ## Precision and Call curve 
-![header](Images/Precisionrecallcurve.png)
+![header](images/Precisionrecallcurve.png)
 Although I checked for imbalanced problems, I want to show the accuracy of the model, effect size of the model using Precision and recall.
 # Some feature imporance
-![header](Images/featureimportance.png)
+![header](images/featureimportance.png)
 
 ## Result
 ![header]let us go with the grid searched random forest with entropy criterion, max depth 5, it turns out, there is a strong indication on the role of number of likes, comments and length of the tags on the classifications of the video categories. 
