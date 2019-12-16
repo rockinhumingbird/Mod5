@@ -5,7 +5,6 @@ Build a classifier that predict category of a given yotube information to one of
 Gaming/Sports, Entertainment, Films, Music, lifestyle and travel, STEM.
 
 ## Variables
-- Classification goal: video categories:
 - number of total likes
 - number of total dislikes
 - number of views
