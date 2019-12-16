@@ -30,7 +30,8 @@ This left us with around 354 words to model!
 
 ## Precision and Call curve 
 ![header](images/Precisionrecallcurve.png)
-Although I checked for imbalanced problems, I want to show the accuracy of the model, effect size of the model using Precision and recall.
+
+Although I checked for imbalanced problems, I want to show the accuracy of the model, effect size of the model using Precision and recall which is more precisive than ROC curve.
 
 ## Result
 ![header]let us go with the grid searched random forest with entropy criterion, max depth 5, it turns out, there is a strong indication on the role of number of likes, comments and length of the tags on the classifications of the video categories. 
