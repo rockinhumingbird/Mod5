@@ -12,12 +12,11 @@ Gaming/Sports, Entertainment, Films, Music, lifestyle and travel, STEM.
 - length of the video title per word
 - number of tags
 
-- Qualitative: title words, tag words
+- Qualitative: title words
 
 
 ## Data Preprocessing / Feature Engineering
-for title We used NLTK to tokenize, lemmatize and filter the data, giving us 4000 unique features (words). From there we vectorized the data via TF-IDF calculation and dropped words below a threshold of 0.001. 
-This left us with around 354 words to model!
+I used NLTK package in python to tokenize, lemmatize and filter the titles, giving us 4000 unique features (words). From there I vectorized the data via TF-IDF calculation and dropped words below a threshold of 0.001, which left me with around 354 words to model.
 
 ## Visualization of Data in Reduced Dimensions
 ![header](images/pca.png)
