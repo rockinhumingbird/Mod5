@@ -2,7 +2,7 @@
 Youtube API + Classifier on categories
 ## Goal
 Build a classifier that predict category of a given yotube information to one of the following categories: 
-Gaming/Sports, Entertainment, Films, Music, lifestyle and travel, STEM.
+ - Gaming/Sports, Entertainment, Films, Music, lifestyle and travel, STEM.
 
 ## Variables
 - number of total likes
