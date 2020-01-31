@@ -33,8 +33,9 @@ I used NLTK package in python to tokenize, lemmatize and filter the titles, givi
 Although I checked for imbalanced problems, I want to show the accuracy of the model, effect size of the model using Precision and recall which is more precisive than ROC curve.
 
 ## Result
-Let us go with the grid searched random forest with entropy criterion, max depth 5, it turns out, there is a strong indication on the role of number of likes, comments and length of the tags on the classifications of the video categories. 
-----
+Let us go with the grid searched random forest with entropy criterion( max depth 5)
+There is a strong indication on the role of number of likes, comments and length of the tags on the classifications of the video categories. 
+
 some parameter information on hyperparameters:
 Mean Cross Validation Score for Random Forest Classifier: 94.16% and 83.67% for decision tree baseline models.
 I tuned hyperparameters in random forest model and get the optimal Parameters: {'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 3, 'min_samples_split': 5, 'n_estimators': 100}.The final accuracy F1 score is 82% using grid search gini criterion. 
