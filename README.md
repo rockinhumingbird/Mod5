@@ -1,4 +1,4 @@
-# Mod5
+# Youtube category classifier
 Youtube API + Classifier on categories
 ## Goal
 Build a classifier that predict category of a given yotube information to one of the following categories: 
